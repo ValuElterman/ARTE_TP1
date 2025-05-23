@@ -2,12 +2,31 @@
     border: 1px solid black;
     margin: 0%;
     padding: 0%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-nav{
-    align-items: center;
+header nav h3{
     display: flex;
     color: black;
+    background-color: #90D1CA;
+    display: flex;
+    list-style: none;
+    margin: 2%;
+    float:left;
+    justify-content: center;
+    align-items: center;
     
 }
+header nav
+{
+    text-align: center;
+}
+h1{
+    clear: both;
+    background-image: url("foto/destin.jpg");
+    background-size:100vw 100vh;
+    padding: 2%;
+    font-size: 8ex;
+    text-align: center;
+}
+
