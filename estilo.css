@@ -2,7 +2,6 @@
     background-color: #FFF9D0 ;
     margin: 0%;
     padding: 0%;
-
 }
 /*HEADER*/
 
@@ -86,12 +85,11 @@ main h5{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4ex;
     margin-left: 2%;
-
     background-color: #91C8E4;
     border-radius: 5px;
     text-align: center;
     padding: 1%;
-    width: 45%;
+    width:35%;
 }
 
 .inicio h5{
@@ -183,10 +181,11 @@ main h5{
     background-color: #ACE2E1;
     width: 100%;
     text-align: left;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     margin-top: 2%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#2f3a3d;
+    font-size: 4ex;
 }
 
 .destinos h3 a{
@@ -197,23 +196,26 @@ main h5{
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1%;
+    font-size: 1.5ex;
 }
 
 .destinos ul {
     padding-left: 1%;
-    margin-bottom: 1%;
     margin-left: 2%;
     background-color: #ACE2E1;
 }
+
 .destinos ul li{
     background-color: #ACE2E1;
     margin-left: 2%;
+    margin-bottom: 2%;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3ex;
 }
 
 .destinos img{
-    width: 70%;
+    width: 80%;
     height: auto;
     size: cover;
 }
@@ -229,7 +231,7 @@ main h5{
 }
 
 .dest{
-    background-color: #91C8E4;
+    background-color: #69b9c7;
     margin: 1.5%;
     overflow: hidden;
 }
@@ -240,20 +242,17 @@ main h5{
     text-align: left;
     font-size: 2rem;
     margin-top: 2%;
-    margin-left: 1.5%;
-    background-color: #91C8E4;
-    flex:1;
+    margin-left: 1%;
+    background-color: #69b9c7;
+    padding: 1%;
 }
 
 .dest h4, .type h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-    margin-bottom: 1.5%;
-    margin-top: 1.5%;
-    color:#FFF9D0;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color:#2f3a3d;
     background-color: #afe1ea; 
-    text-shadow: 1px 1px 1px rgb(77, 77, 77);
-    flex: 1;
     padding: 1%;
     font-weight: 400;
     font-style: italic;
@@ -262,10 +261,13 @@ main h5{
 
 .dest h4{
     margin-left: 1.5%;
+    text-align: left;
 }
 
 .type h4{
     margin-right: 1.5%;
+    text-align: right;
+    margin-bottom: 2%;
 }
 
 .dest img{
@@ -274,6 +276,7 @@ main h5{
 
 .type{
     margin-left: 1.5%;
+    overflow: hidden;
 } 
 
 .dest img, .type img{
@@ -290,13 +293,9 @@ main h5{
     display: flex;
     gap: 1.5%;
     align-items: flex-start;
-    background-color: #91C8E4; 
-}
-
-.type {
-    background-color: #91C8E4;
-    overflow: hidden;
-    /*falta espacio entre los distintos tipos de viajes*/
+    background-color: #69b9c7;
+    margin-right: 2%;
+    margin-bottom: 1%;
 }
 
 
@@ -306,9 +305,10 @@ main h5{
     text-align: right;
     font-size: 2rem;
     margin-top: 2%;
-    background-color: #91C8E4;
-    margin-right: 1.5%;
+    background-color: #69b9c7;
     flex: 1;
+    margin-right: 2%;
+    padding: 1%;
 }
 
 
@@ -334,7 +334,8 @@ main h5{
 .reservas h2{
     margin-bottom: 2%;
     font-weight: 400;
-    color:#2f3a3d
+    color:#2f3a3d;
+    font-size: 4ex;
 }
 .reservas h3 {
     font-size: 5ex;
@@ -351,18 +352,24 @@ main h5{
     font-size: 2.5ex;
 }
 
-.reservas form {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 6fr)); /*para las columnas*/
-    gap: 5%; /*espacio entre ellas*/
-    margin-bottom: 7ex;
+
+.reservas form{
+    display: inline-block;
+    width: 90%;
 }
 
-.reservas p {
-    width: 100%;
+.reservas form p {
     text-align: left;
     font-weight: bold;
     margin-bottom: 1%;
+    background-color: #ffea8b;
+    padding: 2%;
+    width: 25%;
+    height: auto;
+    margin: 2%;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
 }
 
 .reservas input, .reservas select {
@@ -372,16 +379,18 @@ main h5{
     border-radius: 5px;
     font-size: 2ex;
     margin-top: 1%;
+    width: 90%;
 }
 
 .reservas div {
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 2%;
+    text-align: center;
+    width: 90%;
 }
 
 .reservas div input {
-    background-color: #f2d98f;
+    background-color: #ffda8b;
     color: black;
     border: none;
     padding: 2%;
@@ -389,11 +398,12 @@ main h5{
     border-radius: 6px;
     margin: 1.5%;
     font-weight: bold;
-    box-shadow: 1px 1px 3px black
+    box-shadow: 1px 1px 3px black;
+    width: 30%;
 }
 
 .reservas div input:hover {
-    background-color: #eacb78;
+    background-color: #ffcd8b;
 }
 
 
@@ -501,6 +511,7 @@ footer{
     background-color: #92C7CF;
     padding: 1%;
     padding-top: 2ex;
+    
 }
 
 footer p{
