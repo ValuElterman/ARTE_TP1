@@ -2,6 +2,7 @@
     background-color: #FFF9D0 ;
     margin: 0%;
     padding: 0%;
+
 }
 /*HEADER*/
 
@@ -31,6 +32,7 @@ header nav ul li{
     background-color: #FFFBDE ;
     min-width: 90px;
     text-align: center;
+    font-weight: bold;
 
 }
 
@@ -80,34 +82,43 @@ main h5{
     font-size: 2.5ex;
 }
 
-.inicio div{ /*para que la imagen esté al lado del texto*/
-    display: flex; 
-    gap: 20px; 
-    align-items: flex-start; 
+.inicio h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4ex;
+    margin-left: 2%;
+
+    background-color: #91C8E4;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+    width: 45%;
+}
+
+.inicio h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3ex;
+    margin-left: 2%;
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: 400;
+    padding: 1%;
+    font-style: normal;
+}
+
+.inicio div{
+    display: inline-block;
+    width: 45.5%;
     margin-top: 2%;
+}
+
+.inicio img{
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 1%;
-    justify-content: center;
-    display: flex;
-}
-.inicio div ul{
-    flex: 1; 
-    list-style-position: inside;
-    font-size: 1.5rem;
-}
-
-.inicio div li{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 1%;
-    font-size: 2rem;
-}
-
-.inicio div img{
-    float: right;
-    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
     height: auto;
-    object-fit: cover; 
+    float: right;
 }
 
 .inicio h3{
@@ -175,8 +186,7 @@ main h5{
     margin-bottom: 1%;
     margin-top: 2%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#f2d98f;
-    text-shadow: 1px 1px 1px grey;
+    color:#2f3a3d;
 }
 
 .destinos h3 a{
