@@ -17,14 +17,17 @@
                 </ul>
                  <img src="foto/user.png" alt="USER ICON">
             </nav>
-            
+            <hr>
             <h1>RESERVAS</h1>
+            <hr>
         </header>
         <main>
+            <section class = "reservas">
             <h3>Formulario de Consulta de Viaje</h3>
             <h4>¡Gracias por tu interés en viajar con VIAJES.PARMAN! Para poder brindarte la mejor experiencia personalizada, por favor completa este formulario con la información que nos ayude a entender tus preferencias.</h4>
-            <section class = "reservas">
-                <p>Datos Personales</p>
+            
+                <h2>Datos Personales</h2>
+                
                     <form method="post" action="Enviado.html">
                         <p>Nombre completo: <input type="text" name="name and surname" placeholder="Enter name and surname" /> <br/></p>
                         <p>DNI: <input type="text" name="dni" placeholder="Enter dni" /> <br/></p>
@@ -32,7 +35,8 @@
                         <p>Email: <input type="email" name="email" placeholder="Enter email" /> <br/></p>
                         <p>Telefono: <input type="tel" name="telefono" placeholder="Enter telefono" /> <br/></p>
                         
-                        <p>¿Desde donde? Seleccionelo aqui:
+                        <p>¿Desde donde?
+                        <br>Seleccionelo aqui:
                         <select name="destino">
                             <option>Aruba</option>
                             <option>Colombia</option>
@@ -44,7 +48,8 @@
                         </select>
                         </p>
 
-                        <p>¿Hacia donde? ¿Cual es su destino? Seleccionelo aqui:
+                        <p>¿Hacia donde? 
+                        <br>Seleccionelo aqui:
                         <select name="destino">
                             <option>Aruba</option>
                             <option>Colombia</option>
@@ -56,21 +61,25 @@
                         </select>
                         </p>
 
-                        <p>Fecha en las que desearia viajar:</p>
-                        <p>Desde:</p>
+                        <p>Fecha en las que desearia viajar:
+                        <br>Desde:
                         <input type="date"/>
-                        <p>Hasta:</p>
-                        <input type="date"/>
+                        
+                        <br>Hasta:
+                        <input type="date"/></p>
 
-                        <p>Cantidad de pasajeros:</p>
-                        <input type="number" max="99" min="0" step="1"/>
-
-                    <p><input type="submit" value="Enviar datos"></p>
-                    <input type="reset" value="reset form">
+                        <p>Cantidad de pasajeros:
+                        <input type="number" max="99" min="0" step="1"/></p>
+                        
+                        <div class = "SubmityReset">
+                        <input type="submit" value="Enviar datos">
+                        <input type="reset" value="reset form">
+                        </div>
                     </form>
                 </div> 
             </section>
         </main>
+        <hr>
         <footer>
             <p>¿Querés saber más? Contactanos:</p>
             <h5>Teléfono: +34 600 123 456 | +5491148855001 | +5491149377760 </h5>

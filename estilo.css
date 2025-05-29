@@ -67,7 +67,7 @@ header h1{
 }
 
 /*MAIN - INICIO*/
-main{
+.main{
     background-color: #FFF9D0 ;
 }
 
@@ -76,6 +76,8 @@ main h5{
     text-align: center;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
+    margin-top: 1%;
+    font-size: 2.5ex;
 }
 
 .inicio{
@@ -128,11 +130,11 @@ main h5{
     padding: 1%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #ACE2E1;
-    
+    font-style: italic;
 }
 
-/*MAIN - DESTINOS*/
 
+/*DESTINOS*/
 .destinos h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3rem;
@@ -153,20 +155,20 @@ main h5{
     flex-shrink: 1; /* Puede achicarse si no hay espacio */
     flex-basis: calc(22.222% - 2rem); /* Ancho base calculado. */
     background-color: #ACE2E1;
-    padding: 1%;
+    padding: 2%;
     box-shadow: 5px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .krDiv {
-    margin-left: 2rem;;
+    margin-left: 2%;;
 }
 
 .aDiv {
-    margin-right: 2rem;
+    margin-right: 2%;
 }
 .destinos h3{
     font-size: medium;
@@ -194,6 +196,7 @@ main h5{
 .destinos ul {
     padding-left: 1%;
     margin-bottom: 1%;
+    margin-left: 2%;
     background-color: #ACE2E1;
 }
 .destinos ul li{
@@ -242,11 +245,14 @@ main h5{
     margin-bottom: 1.5%;
     margin-top: 1.5%;
     margin-left: 1.5%;
-    color:#f2d98f;
-    background-color: #ACE2E1; 
-    text-shadow: 1px 1px 1px grey;
+    color:#FFF9D0;
+    background-color: #afe1ea; 
+    text-shadow: 1px 1px 1px rgb(77, 77, 77);
     flex: 1;
     padding: 1%;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3ex;
 }
 
 .dest img{
@@ -297,11 +303,14 @@ main h5{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: right;
     margin: 1.5%;
-    color:#f2d98f;
-    background-color: #ACE2E1; 
-    text-shadow: 1px 1px 1px grey;
+    color:#FFF9D0;
+    background-color: #afe1ea; 
+    text-shadow: 1px 1px 1px rgb(77, 77, 77);
     flex: 1;
     padding: 1%;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3ex;
 }
 
 .cont-flex{
@@ -311,12 +320,196 @@ main h5{
     background-color: #91C8E4; 
 }
 
+.reseñas h2{
+    background-color: #94cdc9;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 3%;
+    font-weight:400;
+}
 
+
+/*RESERVAS*/
+
+.reservas {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2ex;
+    margin: 2%;
+    text-align: center;
+    margin-bottom: 4ex;
+}
+
+.reservas h2{
+    margin-bottom: 2%;
+    font-weight: 400;
+    color:#2f3a3d
+}
+.reservas h3 {
+    font-size: 5ex;
+    color: #2f3a3d;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.reservas h4 {
+    background-color: #ACE2E1;
+    font-style: italic;
+    padding: 2%;
+    margin-bottom: 3%;
+    font-size: 2.5ex;
+}
+
+.reservas form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 6fr));
+    gap: 5%;
+    margin-bottom: 7ex;
+}
+
+.reservas p {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.reservas input, .reservas select {
+    width: 100%;
+    padding: 1.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 2ex;
+    margin-top: 1%;
+}
+
+.SubmityReset {
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.SubmityReset input {
+    background-color: #f2d98f;
+    color: black;
+    border: none;
+    padding: 2%;
+    font-size: 2ex;
+    border-radius: 6px;
+    margin: 1.5%;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black
+}
+
+.SubmityReset input:hover {
+    background-color: #eacb78;
+}
+
+
+
+/*TIPO DE VIAJE*/
+.TipoDeViaje{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.TipoDeViaje h3{
+    font-size: 5ex;
+    color: #2f3a3d;
+    margin-bottom: 1%;
+    font-weight: bold;
+    display: inline-flex;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: center;
+    font-style: italic;
+ 
+}
+
+.TipoDeViaje a{
+    display: inline-flex;
+    vertical-align:text-bottom;
+    background-color:#94cdc9;
+    color:#FFF9D0;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin-left: 2%;
+    text-align: center;
+
+}
+
+.TipoDeViaje a:hover{
+    background-color: #6f9996;
+}
+
+.TipoDeViaje h4{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color:#94cdc9;
+    text-shadow: 1px 1px grey;
+    font-size: 3ex;
+
+}
+.TipoDeViaje h5{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    padding: 1.5%;
+    text-align: center;
+    background-color: #ACE2E1;
+}
+
+.TipoDeViaje h2{
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: 3ex;
+}
+
+.TipoDeViaje ul li{
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 4%;
+    font-size: 3ex;
+}
+
+.TipoDeViaje img{
+    width: 50%;
+    height: auto;
+    margin: 2%;
+}
+
+.TipoDeViaje hr {
+    background-color: #2f3a3d;
+    height: 3px;
+    border: none;
+}
+
+header hr{
+    background-color: #2f3a3d;
+    height: 4px;
+    border: none;
+}
+
+hr{
+    background-color: #2f3a3d;
+    height: 4px;
+    border: none;
+}
+
+/*ENVIADO*/
+.Confirmacion h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 5ex;
+    margin: 2%;
+    color: rgb(92, 135, 26);
+}
 
 /*FOOTER*/
 footer{
     background-color: #92C7CF;
     padding: 1%;
+    padding-top: 2ex;
 }
 
 footer p{
@@ -335,4 +528,3 @@ footer h5{
     padding: 1%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
